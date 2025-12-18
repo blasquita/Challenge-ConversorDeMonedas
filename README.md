@@ -1,2 +1,32 @@
-# Challenge-ConversorDeMonedas
-Conversor de monedas desarrollado en Java como parte del Challenge de Alura. Permite convertir valores entre distintas divisas aplicando tasas de cambio. Proyecto enfocado en reforzar fundamentos de Java, lógica de programación y buenas prácticas, utilizando IntelliJ IDEA como entorno de desarrollo.
+# 💱 Challenge Conversor de Monedas
+
+Proyecto desarrollado en **Java** como parte del **Challenge Conversor de Monedas de Alura**.  
+La aplicación permite convertir montos entre distintas divisas utilizando datos actualizados desde la **ExchangeRate-API**, consumida mediante solicitudes HTTP y procesada con la biblioteca **Gson**.
+
+---
+
+## 🚀 Funcionalidades
+- Menú interactivo por consola
+- Conversión entre monedas predefinidas (USD, CLP, EUR, ARS, etc.)
+- Opción de conversión libre ingresando códigos de moneda
+- Cálculo automático del monto convertido
+- Validación de entradas del usuario
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- Java 17+
+- IntelliJ IDEA
+- Gson
+- ExchangeRate-API
+- HttpClient (`java.net.http`)
+
+---
+
+## 🔑 Uso de la API
+La aplicación utiliza el endpoint **/pair** de ExchangeRate-API, el cual devuelve directamente la tasa de conversión entre dos monedas específicas, simplificando el procesamiento del JSON y el uso de Gson.
+
+---
+
+## Este proyecto fue realizado con fines educativos
+
