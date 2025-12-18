@@ -28,5 +28,29 @@ La aplicación utiliza el endpoint **/pair** de ExchangeRate-API, el cual devuel
 
 ---
 
+## ▶️ Programa en funcionamiento
+
+### 📋 Menú principal
+Interfaz por consola que permite al usuario seleccionar el tipo de conversión deseada.
+
+<img width="1816" height="797" alt="Menú principal del conversor de monedas" src="https://github.com/user-attachments/assets/b076b031-de68-44d5-94c1-a5733cb27fe7" />
+
+
+---
+
+### 💱 Conversión con opción predefinida
+Ejemplo del resultado al seleccionar una opción del menú (conversión automática entre monedas).
+
+<img width="1826" height="792" alt="Resultado de conversión predefinida" src="https://github.com/user-attachments/assets/72a2e273-3461-4e23-987d-21f35d88724b" />
+
+---
+
+### 🔄 Conversión libre
+El usuario ingresa manualmente los códigos de moneda de origen y destino.
+
+<img width="1813" height="792" alt="Resultado de conversión libre" src="https://github.com/user-attachments/assets/b872e9fe-0d0e-4b44-a0c6-7f36fd5377ca" />
+
+---
+
 ## Este proyecto fue realizado con fines educativos
 
